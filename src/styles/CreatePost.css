@@ -1,0 +1,68 @@
+.create-card {
+  width: 420px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  font-family: Arial;
+}
+
+.create-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* input */
+.create-card input,
+.create-card select,
+.create-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* textarea */
+.create-card textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+/* button */
+.create-card button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* image count */
+.image-count {
+  margin: 10px 0;
+  font-size: 14px;
+  background: #f3f3f3;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* preview */
+.preview-images {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.preview-images img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}

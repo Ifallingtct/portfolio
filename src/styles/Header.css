@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 30px;
+  color: black;
+}
+
+/* LOGO */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* MENU Ở GIỮA */
+.nav {
+  display: flex;
+  gap: 100px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+
+  font-weight: bold;
+  font-size:18px;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  color: #ffe6f2;
+}
+
+/* RIGHT SIDE */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size:18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Login */
+.login {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #cccccc78;
+  color: black;
+}
+
+/* Register */
+.register { 
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+
+}

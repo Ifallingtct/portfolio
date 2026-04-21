@@ -1,0 +1,66 @@
+.contact-container {
+  width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  font-family: Arial;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* row name */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+textarea {
+  min-height: 90px;
+  resize: none;
+}
+
+/* radio */
+.radio-group {
+  margin: 10px 0;
+}
+
+.radio-group p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.radio-group label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #3578d1;
+}

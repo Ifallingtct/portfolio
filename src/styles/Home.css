@@ -1,0 +1,21 @@
+.home-nav{
+    display: flex;
+    flex-direction: row;
+    padding:60px 40px; /* khoảng cách trái phải */
+}
+
+.home-nav-content{
+    padding: 100px 40px 0px 40px;
+}
+
+.home-nav-content h1{
+    text-align: center;
+}
+
+.home-nav-content p{
+    margin: 15px;
+}
+
+.home-nav-image img{
+    border-radius: 45px;
+}

@@ -1,0 +1,69 @@
+.rooms {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.rooms h1 {
+  margin-bottom: 30px;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.area-card {
+  text-decoration: none;
+  color: black;
+}
+
+.area-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.area-card h3 {
+  margin: 10px 0 5px;
+}.rooms {
+  padding: 20px;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.area-card {
+  display: block;
+  text-decoration: none;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.area-card:hover {
+  transform: translateY(-4px);
+}
+
+.area-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.area-card h3 {
+  margin: 10px;
+}
+
+.area-card p {
+  margin: 0 10px 10px;
+  font-size: 13px;
+  color: gray;
+}

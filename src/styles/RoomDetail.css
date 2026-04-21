@@ -1,0 +1,82 @@
+.room-detail {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* BACK BUTTON */
+.room-detail button {
+  padding: 8px 12px;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.room-detail button:hover {
+  background: #ddd;
+}
+
+/* AREA HEADER */
+.room-detail h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.room-detail p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* ROOM GRID */
+.room-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* ROOM CARD */
+.room-list a {
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.room-list a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* IMAGE */
+.room-list img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* TITLE */
+.room-list h3 {
+  font-size: 15px;
+  margin: 10px;
+  color: #333;
+}
+
+/* PRICE */
+.room-list p {
+  margin: 0 10px 10px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+/* EMPTY STATE */
+.room-list p:only-child {
+  color: #999;
+  text-align: center;
+}
