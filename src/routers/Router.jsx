@@ -12,7 +12,7 @@ export default function Routers() {
   return (
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Rental-House-Website/" element={<Home />} />
+        <Route path="/Rental-House-Website" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/rooms/:id" element={<RoomDetail />} />
