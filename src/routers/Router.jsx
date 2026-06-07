@@ -1,25 +1,20 @@
+import { Navigate, Routes, Route } from "react-router-dom";
 
-import { Routes, Route } from "react-router-dom";
-
-import Home from "../pages/Home"
-import Rooms from "../pages/Rooms"
-import RoomDetail from "../components/UI/RoomDetail";
-import RoomItemDetail from "../components/UI/RoomItemDetail";
-import CreatePost from "../pages/CreatePost";
-import Contact from "../pages/Contact";
+import About from "../pages/About";
+import ProjectDetail from "../pages/ProjectDetail";
+import Projects from "../pages/Projects";
+import Skills from "../pages/Skills";
+import Summary from "../pages/Summary";
 
 export default function Routers() {
   return (
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Rental-House-Website" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/rooms" element={<Rooms />} />
-        <Route path="/rooms/:id" element={<RoomDetail />} />
-        <Route path="/room/:roomId" element={<RoomItemDetail />} />
-        <Route path="/post" element={<CreatePost />} />
-        <Route path="/contact" element={<Contact />} />
-              <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <Routes>
+      <Route path="/" element={<Navigate to="/gioi-thieu" replace />} />
+      <Route path="/gioi-thieu" element={<About />} />
+      <Route path="/du-an" element={<Projects />} />
+      <Route path="/du-an/:projectId" element={<ProjectDetail />} />
+      <Route path="/ky-nang" element={<Skills />} />
+      <Route path="/tong-ket" element={<Summary />} />
+    </Routes>
   );
 }

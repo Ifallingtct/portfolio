@@ -1,11 +1,14 @@
-@font-face {
-  font-family: "Nunito_Sans";
-  src: url("./assets/font/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
-}
-
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Nunito_Sans";
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f7f6;
 }
